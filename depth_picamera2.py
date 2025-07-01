@@ -63,4 +63,4 @@ while True:
     tEnd = time.time()
     loopTime = tEnd - tStart
     fps = .9*fps + .1*(1/loopTime)
-cv2.destroyAllWindows(
+cv2.destroyAllWindows()
